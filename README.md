@@ -88,7 +88,14 @@ ID:t man får i listan kan sedan användas för att få detaljer om filmen:
 http://sfbm-prod-v3.cybercomhosting.com/services/3.0/movies/moviedetail/77035780?cityid=VY&includeAllTags=true
 ```
 {
-shortDescription: "Bamse, världens starkaste och snällaste björn, har älskats av generationer av barn ända sedan starten 1966. Nu tar Bamse klivet till bioduken med sin första långfilm. Filmen bygger på ett originalmanus av Johan Kindblom och Tomas Tivemark samt regisseras av Christian Ryltenius. I Bamse och Tjuvstaden får vi följa Bamse, Skalman och Lille Skutt på ett nytt spännande äventyr genom Trollskogen och in i Tjuvarnas stad för att rädda Farmor från den elake Reinard Räv."
+shortDescription: "Bamse, världens starkaste och snällaste björn, 
+har älskats av generationer av barn ända sedan starten 1966. 
+Nu tar Bamse klivet till bioduken med sin första långfilm. 
+Filmen bygger på ett originalmanus av Johan Kindblom och Tomas Tivemark 
+samt regisseras av Christian Ryltenius. 
+I Bamse och Tjuvstaden får vi följa Bamse, Skalman och Lille Skutt 
+på ett nytt spännande äventyr genom Trollskogen och in i 
+Tjuvarnas stad för att rädda Farmor från den elake Reinard Räv."
 longDescription: null
 tags: [0]
 movieVersions: [1]

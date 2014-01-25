@@ -79,7 +79,6 @@ id: "77035780"
 }
 }
 ```
-
-
-
+Trailer-länkarna fungerar utan inloggning och man behöver inte skicka med var_log-parametern
+Posterlänkarna kräver inte heller inloggning men man byter ut _WIDTH_ till den bredd man vill ha
 

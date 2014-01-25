@@ -3,7 +3,9 @@ Api som används av SF-Bio -appen för iPhone
 
 SF Bio har en smidig app för iPhone där man främst kan se vilka filmer som visas i en viss stad och även boka biljetter.
 
-Jga missade ofta när bra filmer gick på bio så jag tänkte bygga någon slags notifiering när tex filmer som fått bra betyg på IMDB har premiär i min stad.
+Jag missade ofta när bra filmer gick på bio så jag tänkte bygga någon slags notifiering när tex filmer som fått bra betyg på IMDB har premiär i min stad.
+
+... men då måste man få tag på datat på nåt sätt.
 
 ## Låt hackandet börja
 

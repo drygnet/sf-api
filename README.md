@@ -52,8 +52,32 @@ Som svar får man en kaka som kan användas för framtida anrop
 På urlen http://sfbm-prod-v3.cybercomhosting.com/services/3.0/cities
 så får man JSON med alla städer, de har ett namn och ett ID.
 ```
-{"mainCities":[{"name":"Stockholm","id":"SE"},{"name":"Göteborg","id":"GB"},{"name":"Malmö","id":"MA"}],"cities":[{"name":"Alingsås","id":"AL"},{"name":"Borlänge","id":"BO"},{"name":"Borås","id":"BS"},{"name":"Eskilstuna","id":"EA"},{"name":"Falun","id":"FN"},{"name":"Flen","id":"FL"},{"name":"Gävle","id":"GA"},{"name":"Halmstad","id":"HD"},{"name":"Helsingborg","id":"HE"},{"name":"Hudiksvall","id":"HL"},{"name":"Härnösand","id":"HS"},{"name":"Jönköping","id":"JO"},{"name":"Kalmar","id":"KL"},{"name":"Karlskrona","id":"KK"},{"name":"Karlstad","id":"KA"},{"name":"Katrineholm","id":"KM"},{"name":"Kristianstad","id":"KD"},{"name":"Kungsbacka","id":"KB"},{"name":"Köping","id":"KP"},{"name":"Linköping","id":"LI"},{"name":"Luleå","id":"LU"},{"name":"Lund","id":"LD"},{"name":"Mariestad","id":"MD"},{"name":"Mjölby","id":"MJ"},{"name":"Mora","id":"MR"},{"name":"Motala","id":"ML"},{"name":"Norrköping","id":"NO"},{"name":"Norrtälje","id":"NT"},{"name":"Nyköping","id":"NG"},{"name":"Skara","id":"SA"},{"name":"Skellefteå","id":"ST"},{"name":"Skövde","id":"SK"},{"name":"Strängnäs","id":"SS"},{"name":"Sundsvall","id":"SU"},{"name":"Sälen","id":"SN"},{"name":"Söderhamn","id":"SH"},{"name":"Uddevalla","id":"UD"},{"name":"Umeå","id":"UM"},{"name":"Uppsala","id":"UP"},{"name":"Vetlanda","id":"VL"},{"name":"Visby","id":"VY"},{"name":"Vänersborg","id":"VG"},{"name":"Värnamo","id":"VR"},{"name":"Västervik","id":"VS"},{"name":"Västerås","id":"VA"},{"name":"Växjö","id":"VO"},{"name":"Ystad","id":"YD"},{"name":"Örebro","id":"OR"},{"name":"Örnsköldsvik","id":"OK"},{"name":"Östersund","id":"OS"}]}
-
+{"name":"Visby","id":"VY"}
+```
+Så då kan man få utförlig information på url:en
+http://sfbm-prod-v3.cybercomhosting.com/services/3.0/movies/currentmovies/VY
+```
+{
+movies: [12]
+0:  {
+tags: null
+numberOfTheatres: 1
+firstShowDate: 1390656147150
+shownInMyCity: true
+premiereDate: 1389913200000
+movieName: "Bamse och tjuvstaden"
+highQualityTrailerLink: "http://sv.clip-1.filmtrailer.com/14027_51400_a_5.mp4?log_var=54%7C4601100194-1%7C-"
+lowQualityTrailerLink: "http://sv.clip-1.filmtrailer.com/14027_51400_a_4.mp4?log_var=54%7C4601100194-1%7C-"
+ratingAge: "Barntillåten"
+genre: "Barn"
+ratingCode: "4"
+placeHolderPosterURL: "http://sfbm-prod-v3.cybercomhosting.com/image/POSTER/_WIDTH_/-/77035780.jpg"
+placeHolderBannerURL: "http://sfbm-prod-v3.cybercomhosting.com/image/BANNER/_WIDTH_/-/77035780.jpg"
+index: 0
+length: 66
+id: "77035780"
+}
+}
 ```
 
 

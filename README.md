@@ -22,6 +22,16 @@ Första anropet går till:
 http://sfbm-prod-v3.cybercomhosting.com/services/3.0/config
 och det skickas med några viktiga saker i headern
 
+  GET /services/3.0/config HTTP/1.1
+  Host: sfbm-prod-v3.cybercomhosting.com
+  Authorization: Basic c2ZiaW86U0ZiZWUw
+  Accept: application/json
+  Accept-Encoding: gzip
+  Connection: keep-alive
+  Connection: keep-alive
+  X-SF-Iphone-Version: 2.0.7
+  User-Agent: SF Bio 2.0.7 rv:241 (iPhone; iPhone OS 7.0.2; sv_SE)
+  
 
 
 

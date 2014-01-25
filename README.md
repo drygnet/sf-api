@@ -16,5 +16,12 @@ I Fiddler under menyn Tools väljer du "Fiddler options" och sedan fliken "Conne
 
 Ställ in proxyinställningarna i din iphone att peka på din dator Fiddler och välj den port du konfigurerat i fiddler (standard är 8888)
 
+Starta SB-Bio appen och anropen bör dyka upp i fiddler.
+
+Första anropet går till:
+http://sfbm-prod-v3.cybercomhosting.com/services/3.0/config
+och det skickas med några viktiga saker i headern
+
+
 
 

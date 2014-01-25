@@ -33,7 +33,7 @@ och det skickas med några viktiga saker i headern
   X-SF-Iphone-Version: 2.0.7
   User-Agent: SF Bio 2.0.7 rv:241 (iPhone; iPhone OS 7.0.2; sv_SE)
 ```
-Både X-Headern och 
+Både X-Headern och User-Agent måste skickas med i alla anrop mot API:et
 
 
 Byt till fliken "Auth" under "Inspectors" så ser du
@@ -129,4 +129,7 @@ length: 66
 id: "77035780"
 }
 ``` 
+
+
+
 

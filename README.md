@@ -80,5 +80,13 @@ id: "77035780"
 }
 ```
 Trailer-länkarna fungerar utan inloggning och man behöver inte skicka med var_log-parametern
-Posterlänkarna kräver inte heller inloggning men man byter ut _WIDTH_ till den bredd man vill ha
+Posterlänkarna kräver inte heller inloggning men man byter ut _ WIDTH_ till den bredd man vill ha
+
+exempel: http://sfbm-prod-v3.cybercomhosting.com/image/POSTER/400/-/77035780.jpg
+
+ID:t man får i listan kan sedan användas för att få detaljer om filmen:
+http://sfbm-prod-v3.cybercomhosting.com/services/3.0/movies/moviedetail/77035780?cityid=VY&includeAllTags=true
+```
+{"shortDescription":"Bamse, världens starkaste och snällaste björn, har älskats av generationer av barn ända sedan starten 1966. Nu tar Bamse klivet till bioduken med sin första långfilm. Filmen bygger på ett originalmanus av Johan Kindblom och Tomas Tivemark samt regisseras av Christian Ryltenius. I Bamse och Tjuvstaden får vi följa Bamse, Skalman och Lille Skutt på ett nytt spännande äventyr genom Trollskogen och in i Tjuvarnas stad för att rädda Farmor från den elake Reinard Räv.","longDescription":null,"tags":[],"movieVersions":[{"tags":[],"movieId":"77035780","firstShowDate":1390656824126}],"numberOfTheatres":null,"firstShowDate":1390656824185,"shownInMyCity":true,"price":70,"premiereDate":1389913200000,"movieName":"Bamse och tjuvstaden","highQualityTrailerLink":"http://sv.clip-1.filmtrailer.com/14027_51400_a_5.mp4?log_var=54%7C4601100194-1%7C-","lowQualityTrailerLink":"http://sv.clip-1.filmtrailer.com/14027_51400_a_4.mp4?log_var=54%7C4601100194-1%7C-","ratingAge":"Barntillåten","genre":"Barn","ratingCode":"4","actors":[],"directors":[{"name":"Christian Ryltenius"}],"placeHolderPosterURL":"http://sfbm-prod-v3.cybercomhosting.com/image/POSTER/_WIDTH_/-/77035780.jpg","placeHolderBannerURL":"http://sfbm-prod-v3.cybercomhosting.com/image/BANNER/_WIDTH_/-/77035780.jpg","index":0,"length":66,"id":"77035780"}
+``` 
 

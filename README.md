@@ -1,3 +1,7 @@
+Infomationen nedan är gammal,
+men uppdaterade URL:ar, lösenord och headers finns här:
+https://gist.github.com/drygnet/deefff0757ced775429bf2be58b2ddc4
+
 # sf-api
 Api som används av SF-Bio -appen för iPhone
 
